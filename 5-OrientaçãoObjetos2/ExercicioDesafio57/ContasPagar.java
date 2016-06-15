@@ -51,7 +51,7 @@ public class ContasPagar {
 	}
 	
 	public void pagar(){
-		System.out.println("Fornecedor: " + getFornecedor() + "\n"+
+		System.out.println("Fornecedor: " + fornecedor.getNome() + "\n"+
 						   "Conta.....: " + getDescricao() +  "\n"+
 						   "Data Venc.: " + getData() + "\n"+
 						   "Valor.....: " + getValor() + "\n");		
