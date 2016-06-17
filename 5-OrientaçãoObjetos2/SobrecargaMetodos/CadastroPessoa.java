@@ -12,4 +12,12 @@ public class CadastroPessoa {
 	public void cadastrar(String nome, int idade){
 		armazenar(nome,  idade);
 	}
+	
+	public void cadastrar(String nome){
+		armazenar(nome,  0);
+	}
+	
+	public void cadastrar(int idade){
+		armazenar(null,  idade);
+	}
 }
