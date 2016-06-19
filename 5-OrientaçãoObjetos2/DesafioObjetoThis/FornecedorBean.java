@@ -1,4 +1,4 @@
-package ExercicioDesafio57;
+package DesafioObjetoThis;
 
 public class FornecedorBean {
 	private String nome;
