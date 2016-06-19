@@ -5,6 +5,7 @@ import DesafioEnum.SituacaoConta;
 public class ContaReceber extends Conta{
 	private Cliente cliente;
 	
+	//Construtor default ->Necessário sua declaração para utilizar a herança de métodos e construtores (Super());
 	public ContaReceber(){
 		
 	}
@@ -44,7 +45,7 @@ public class ContaReceber extends Conta{
 				+ this.getValor() + " e vencimento em " + this.getDataVencimento() 
 				+ " do cliente " + this.getCliente().getNome() + ".");
 				
-			// altera situação da conta para PAGA
+			//Altera situação da conta de PENDENTE para PAGA
 			this.situacaoConta = SituacaoConta.PAGA;
 		}	
 	}
