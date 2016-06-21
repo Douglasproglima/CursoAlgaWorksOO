@@ -5,6 +5,6 @@ public class ProgramaSobrecarga {
 		MaquinaCafe mc1 = new MaquinaCafe();
 		mc1.acucarDisponivel = 55;
 		mc1.fazerCafe(10);
-		mc1.fazerCafe(65);
+		mc1.fazerCafe(56);
 	}
 }
