@@ -2,7 +2,7 @@ package DesafioObjetoThis;
 
 import DesafioEnum.SituacaoConta;
 
-public class ProgramaDesafio07 {
+public class ProgramaObjetoThis {
 	public static void main(String[] args) {
 		FornecedorBean forn1 = new FornecedorBean();
 		forn1.setNome("Casa Pronta");

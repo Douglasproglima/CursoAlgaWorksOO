@@ -1,6 +1,6 @@
 package DesafioPolimorfismoAlgaWorks;
 
-public class ProgramaPolimorfismo {
+public class ProgramaPolimorfismoAlgaWorks {
 	public static void main(String[] args) {
 		//Instanciando fornecedores
 		FornecedorBean imobiliaria = new FornecedorBean();

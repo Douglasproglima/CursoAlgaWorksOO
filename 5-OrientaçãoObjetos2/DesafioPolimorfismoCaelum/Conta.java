@@ -1,4 +1,4 @@
-package DesafioPolimorfismo_Caelum;
+package DesafioPolimorfismoCaelum;
 
 public class Conta {
 	private double saldo;

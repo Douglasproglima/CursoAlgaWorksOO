@@ -1,4 +1,4 @@
-package DesafioPolimorfismo_Caelum;
+package DesafioPolimorfismoCaelum;
 
 public class ContaCorrente extends Conta{
 

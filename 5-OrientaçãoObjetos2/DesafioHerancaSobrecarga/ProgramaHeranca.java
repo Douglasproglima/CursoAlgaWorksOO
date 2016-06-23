@@ -1,6 +1,6 @@
 package DesafioHerancaSobrecarga;
 
-public class ProgramaDesafioHeranca {
+public class ProgramaHeranca {
 	public static void main(String[] args) {
 		FornecedorBean forn1 = new FornecedorBean();
 		forn1.setNome("Casa Pronta");

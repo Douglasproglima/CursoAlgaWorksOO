@@ -1,6 +1,6 @@
 package DesafioPolimorfismo_Douglas;
 
-public class Programa {
+public class ProgramaPolimorfismoDouglas {
 	public static void main(String[] args){
 		Forno forno = new Forno();
 		
