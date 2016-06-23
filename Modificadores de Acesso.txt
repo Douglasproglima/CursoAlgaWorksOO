@@ -1,3 +1,19 @@
+Public: O modificador public deixará visível a classe ou membro para todas as outras 
+		classes, subclasses e pacotes do projeto Java.
+
+Protected: O modificador protected deixará visível o atributo para todas as outras classes 
+		   e subclasses que pertencem ao mesmo pacote. A principal diferença é que apenas 
+		   as classes do mesmo pacote têm acesso ao membro. O pacote da subclasse não tem 
+		   acesso ao membro.
+
+Private: O modificador private deixará visível o atributo apenas para a classe em que 
+		 este atributo se encontra.
+
+Package-Private: é o modificador padrão quando outro não é definido. Isto torna acessível 
+			     na própria classe, nas classes e subclasses do mesmo pacote. Ele geralmente é utilizado para construtores e métodos que só dever ser invocados pelas classes e subclasses do pacote, constantes estáticas que são úteis apenas dentro do pacote em que estive inserido. 
+
+______________________________________________________________________________
+Exemplo 2:
 public
 Uma declaração com o modificador public pode ser acessada de qualquer lugar e por qualquer entidade que possa 
 visualizar a classe a que ela pertence.
