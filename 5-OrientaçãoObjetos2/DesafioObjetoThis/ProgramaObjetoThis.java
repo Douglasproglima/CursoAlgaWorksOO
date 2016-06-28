@@ -1,7 +1,5 @@
 package DesafioObjetoThis;
 
-import DesafioEnum.SituacaoConta;
-
 public class ProgramaObjetoThis {
 	public static void main(String[] args) {
 		FornecedorBean forn1 = new FornecedorBean();
