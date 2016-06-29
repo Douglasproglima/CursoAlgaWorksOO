@@ -1,4 +1,4 @@
-package com.algoworksOO.curso.excessoes;
+package LancandoExcecoes;
 
 import Exercicio3Alura.Conta;
 

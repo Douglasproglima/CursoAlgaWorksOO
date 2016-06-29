@@ -20,7 +20,8 @@ public class ProgramaColetaLixo {
 		//Erro de NullPointerException -> O objeto não tem referência para o objeto
 		nfe.imprimirAlgo();
 		
-		
+		//É neste momento que entra o garbage coletion, ele verifica se os objetos na healp estão instanciados
+		//se não estiver ele elimina o objeto da mémoria heap.
 		 
 	}
 }

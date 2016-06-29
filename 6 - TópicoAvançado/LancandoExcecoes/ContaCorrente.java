@@ -1,4 +1,4 @@
-package com.algoworksOO.curso.excessoes;
+package LancandoExcecoes;
 
 public class ContaCorrente {
 	private double saldo;

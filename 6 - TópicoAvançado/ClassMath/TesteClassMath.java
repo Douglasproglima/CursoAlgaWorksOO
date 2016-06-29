@@ -1,4 +1,4 @@
-package com.algoworksOO.curso.classeMath;
+package ClassMath;
 
 import java.util.Scanner;
 import static java.lang.Math.*;
