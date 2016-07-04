@@ -11,7 +11,7 @@ public class ProgramaString {
 		
 		/*Para contorna essa situação existem StringBuilder e StringBuffer
 		 * StringBuilder -> Não é protegida com relação a threads, porém StringBuilder é mais rápida do que StringBuffer
-		 * StringBuffer  -> É protegido com relação a threads porém é mais lento do StringBuilder
+		 * StringBuffer  -> É protegida com relação a threads porém é mais lento do StringBuilder
 		 * */
 		
 		StringBuilder strBuilder = new StringBuilder("Douglas");//Existe a StringBuilder Douglas
